@@ -27,8 +27,7 @@ with normal vectors. The details of generating is in class `ModelNeth5DataLoader
 
 ### Model
 
-The default model in `test_cls.py` is `models/PN2_cls_ssg_shuffle_info.py` which is our ***PointShuffleNet*** with ***
-HER*** and ***LMIR***. For stable evaluation result, we don't use ***ClusterFPS*** in default model. But you can try it
+The default model in `test_cls.py` is `models/PN2_cls_ssg_shuffle_info.py` which is our ***PointShuffleNet*** with ***HER*** and ***LMIR***. For stable evaluation result, we don't use ***ClusterFPS*** in default model. But you can try it
 by changing the `use_cluster` parameter in `models/PN2_cls_ssg_shuffle_info.py`.
 <br>
 The code of ***HER*** and ***LMIR*** is in `models/ShufflePointNet_util.py` line 61.
