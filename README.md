@@ -19,11 +19,11 @@ h5py<br>
 
 ### Data Preparation
 
-You need to download the test data file from [**
-GoogleDrive**](https://drive.google.com/file/d/15RslcbHPfNCC18aHAZxKkRQLBo1OfDUo/view?usp=sharing) and put it in
-the `data` directory as `data/cache_test_1024_normal_True.h5`. The data is generated from [**
-ModelNet**](https://shapenet.cs.stanford.edu/media/modelnet40_normal_resampled.zip) and downsampled to 1024 points with
-normal vectors. The details of generating is in class `ModelNeth5DataLoader` of `data_utils/ModelNetDataLoader.py`.
+You need to download the test data file
+from [GoogleDrive](https://drive.google.com/file/d/15RslcbHPfNCC18aHAZxKkRQLBo1OfDUo/view?usp=sharing) and put it in
+the `data` directory as `data/cache_test_1024_normal_True.h5`. The data is generated
+from [ModelNet](https://shapenet.cs.stanford.edu/media/modelnet40_normal_resampled.zip) and downsampled to 1024 points
+with normal vectors. The details of generating is in class `ModelNeth5DataLoader` of `data_utils/ModelNetDataLoader.py`.
 
 ### Model
 
