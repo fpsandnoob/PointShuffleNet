@@ -42,7 +42,7 @@ def parse_args():
     parser.add_argument('--log_dir', type=str, default='ssg_normal', help='Experiment root')
     parser.add_argument('--normal', action='store_true', default=True,
                         help='Whether to use normal information [default: False]')
-    parser.add_argument('--num_votes', type=int, default=10,
+    parser.add_argument('--num_votes', type=int, default=3,
                         help='Aggregate classification scores with voting [default: 3]')
     return parser.parse_args()
 
